@@ -8,5 +8,4 @@ There aren't any sprite images at the moment, but I plan to add some later.
 
 # Usage
 
-Add the `UnusedWiiSpritedata` folder to the miyamotodata/patches folder
-Then change the game to Unused Wii Actor Spritedata
+Add the `UnusedWiiSpritedata` folder to the miyamotodata/patches folder, then change the game to Unused Wii Actor Spritedata in Miyamoto.
