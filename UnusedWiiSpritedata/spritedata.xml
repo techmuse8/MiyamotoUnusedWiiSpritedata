@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<sprites>
+<sprite id="319" name="Move-when-on Metal Block [UNUSED]" notes="A tall block with a lava glow underneath it that will move at any point when a specified number of 'passengers' (players + enemies) are standing on it, then goes back to the original position.">
+       <list nybble="18" title="Size" comment="This determines the size of the block.">
+                     <entry value="0">Small</entry>
+                   <entry value="1">Medium</entry>
+                   <entry value="2">Large</entry>
+           </list>
+         <list nybble="11" title="Moves with Passenger Number" comment="This determines how many 'passengers' are needed for the block's movement to activate. Only seems to work with players with current research." comment2="eh">
+                   <entry value="0">1 Passenger</entry>
+                   <entry value="1">2 Passengers</entry>
+                   <entry value="2">3 Passengers</entry>
+                   <entry value="3">4 Passengers</entry>
+                   <entry value="4">5 Passengers</entry>
+                   <entry value="5">6 Passengers</entry>
+                   <entry value="6">7 Passengers</entry>
+                   <entry value="7">8 Passengers</entry>
+                   <entry value="8">9 Passengers</entry>
+                   <entry value="9">10 Passengers</entry>
+                   <entry value="10">11 Passengers</entry>
+                   <entry value="11">12 Passengers</entry>
+                   <entry value="12">13 Passengers</entry>
+                   <entry value="13">14 Passengers</entry>
+                   <entry value="14">15 Passengers</entry>
+                   <entry value="15">16 Passengers</entry>
+             </list>
+         <list nybble="7" title="Direction" comment="This determines which direction the block will move while moving.">
+                 <entry value="0">Right</entry>
+                 <entry value="1">Left</entry>
+                 <entry value="2">Up</entry>
+                 <entry value="3">Down</entry>
+             </list>
+         <value nybble="16" title="Speed" comment="This determines how quickly the block will move while moving."/>
+     </sprite>
+</sprites>
